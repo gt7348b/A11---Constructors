@@ -36,6 +36,28 @@ function expect(target) {
 //
 // Only add code to *THIS* section!
 
+var Human = function (options){
+  var options = options || {};
+  this.cool = typeof options.cool !== 'undefined' ?  options.cool : false;
+  this.age = options.age;
+  //Drive method
+  // Two parameters - object being driven and updated condition
+  this.feed = function(dog){
+    dog.hungry = false;
+  };
+  this.pet = function(dog){
+    dog.status = 'happy'
+  }
+}
+
+var Dog = function (options){
+  var options = options || {};
+  this.color = options.color
+  this.hungry = typeof options.hungry !== 'undefined' ?  options.hungry : true;
+  this.status = 'normal';
+  this.owner = options.owner;
+
+}
 // ????????
 // ????????
 // ????????
