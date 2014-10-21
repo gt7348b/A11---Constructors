@@ -40,8 +40,6 @@ var Human = function (options){
   var options = options || {};
   this.cool = typeof options.cool !== 'undefined' ?  options.cool : false;
   this.age = options.age;
-  //Drive method
-  // Two parameters - object being driven and updated condition
   this.feed = function(dog){
     dog.hungry = false;
   };
@@ -58,9 +56,6 @@ var Dog = function (options){
   this.owner = options.owner;
 
 }
-// ????????
-// ????????
-// ????????
 
 
 //        __
