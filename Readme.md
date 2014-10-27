@@ -1,3 +1,12 @@
-## Yo, I'm a Readme
+## Assignment 11 - Constructors
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+This is Assignment 11 in Fall 2014 Iron Yard Front End Engineering. It was to create constructors in javascript to pass a series of true/false tests.
+
+
+Open "index.html" and open the console. All of the elements in the console should say "passed."
+
+If you'd like to copy:
+
+ - Clone my repo
+ - Run npm install
+ - Run bower install

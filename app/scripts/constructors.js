@@ -39,14 +39,13 @@ function expect(target) {
 var Human = function (options){
   var options = options || {};
   this.cool = typeof options.cool !== 'undefined' ?  options.cool : false;
-  this.age = options.age;
   this.feed = function(dog){
     dog.hungry = false;
   };
   this.pet = function(dog){
     dog.status = 'happy'
-  }
-}
+  };
+};
 
 var Dog = function (options){
   var options = options || {};
@@ -55,7 +54,7 @@ var Dog = function (options){
   this.status = 'normal';
   this.owner = options.owner;
 
-}
+};
 
 
 //        __
