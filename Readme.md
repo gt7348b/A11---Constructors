@@ -10,3 +10,5 @@ If you'd like to copy:
  - Clone my repo
  - Run npm install
  - Run bower install
+
+Libraries used include jQuery. Dependencies also include gzippo and express in json file.
